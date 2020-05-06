@@ -11,6 +11,21 @@ public class PersonMain {
         }
         System.out.println("roster list size = " + roster.size());
 
+//        for (Person p :
+//                roster) {
+//            System.out.println(p.getName());
+//        }
+
+//        roster
+//                .stream()
+//                .forEach(e -> System.out.println(e.getName));
+
+//        roster.forEach((n) -> {
+//            System.out.println(n.toString());
+//        });
+
+        roster.forEach(System.out::println);
+
 
 
     }

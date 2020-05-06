@@ -11,7 +11,7 @@ public class Person {
     LocalDate birtday;
     Sex gender;
     String emailAddress;
-    int personCounter;
+    static int personCounter;
 
 
     public Person() {
