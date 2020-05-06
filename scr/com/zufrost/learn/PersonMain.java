@@ -24,8 +24,9 @@ public class PersonMain {
 //            System.out.println(n.toString());
 //        });
 
-        roster.forEach(System.out::println);
 
+        roster.sort((o1, o2) -> o2.name.length() - o1.name.length());
+        roster.forEach(System.out::println);
 
 
     }
